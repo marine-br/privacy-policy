@@ -7,6 +7,5 @@ export default defineConfig({
     defaultLocale: "pt-br",
     locales: ["pt-br", "en", "es"],
   },
-  output: "server",
   integrations: [tailwind()],
 });
